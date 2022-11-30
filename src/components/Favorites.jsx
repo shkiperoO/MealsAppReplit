@@ -2,7 +2,7 @@ import { useGlobalContext } from '../context'
 
 const Favorites = () => {
 
-  const {favorites, selectMeal, removeFromFavorites} = useGlobalContext()
+  const { favorites, selectMeal, removeFromFavorites } = useGlobalContext()
 
   
     return <section className='favorites'>
